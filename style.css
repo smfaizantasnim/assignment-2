@@ -175,6 +175,11 @@ font-weight: 800;
 /* Popular Tour Section end */
 
 /* Choose Your Destination start */ 
+.choose-destination-container{
+    eight: 500px; 
+    width: 900px;
+    margin: 0 auto;
+}
 .destination-title{
     text-align: center;
 }
