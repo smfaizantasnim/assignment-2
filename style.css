@@ -201,20 +201,20 @@ option {
 
 .destination-title {
     color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .destination-description {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-size: 14px;
-font-weight: 400;
-line-height: 26px; 
-width: 643px;
-align-items: center;
-margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
@@ -276,7 +276,7 @@ margin: 0 auto;
     font-weight: 800;
     border-radius: 16px;
     grid-area: srilanka;
-    
+
 }
 
 .north-america {
@@ -360,70 +360,121 @@ margin: 0 auto;
 }
 
 .grid-destination {
-/* 
+    /* 
     display: flex;
     justify-content: center;
     align-items: center; */
 }
-.first-grid, .second-grid, .third-grid{
+
+.first-grid,
+.second-grid,
+.third-grid {
     display: flex;
 }
-.grid-image{
+
+.grid-image {
     margin: 8px;
 }
+
 /* class="why-choose-us" */
-.why-choose-us{
-    eight: 500px;
+.why-choose-us {
+    height: 500px;
     width: 900px;
-    margin: 0 auto;
+    margin: 23px auto;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.why-choose-us-title{
+#svg-icon{
+    width: 64px;
+height: 64px;
+}
+.why-choose-us-title {
     color: #131318;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
-.why-choose-us-text{
+
+.why-choose-us-text {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-size: 12px;
-font-weight: 400;
-line-height: 26px; 
-width: 643px;
-align-items: center;
-margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    align-items: center;
+    margin: 0 auto;
 
 }
-.choose-us-flexbox{
+
+.choose-us-flexbox {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.box{
-    width: 573px;
-height: 284px;
-margin: 10px;
-padding: 10px;
-
+.box {
+    width: 50%;
+    height: 167px;
+    margin: 5px;
+    padding: 10px;
 }
-.choose-us-second{
+.choose-us-card-text{
+    font-size: 10px;
+}
+
+.choose-us-second {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-.choose-us-first{
+
+.choose-us-first {
     border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 }
-.choose-us-third{
+
+.choose-us-third {
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
-.choose-flex{
+
+.choose-flex {
     display: flex;
 }
+
+/*                 Footer */
+
+.footer-container{
+    width: 100%;
+height: 302px;
+background: rgba(19, 19, 24, 0.05);
+display: flex;
+align-items: center;
+justify-content: center; 
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-top: 25px;
+}
+.footer-text{
+    width: 60%;
+    text-align: center;
+}
+
+#footer-logo{
+    justify-content: center;
+    display: flex;
+}
+#footer-text{
+    display: flex;
+    justify-content: center;
+    color: #131318;
+}
+small{
+    font-weight: 800;
+}
+/* Normal Essential part done
+Now Respnsive */
