@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
-  
+
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
     color: #131318;
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px 127px 15px 135px ;
+    margin: 15px 127px 15px 135px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     padding: 10px;
 }
@@ -55,165 +55,197 @@ span {
     align-items: center;
     gap: 44px;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: #FF5400;
 }
 
 /* Navbar Section end   */
 
 
-.hero-image-container{
+.hero-image-container {
     background: url('/Images/hero.png');
-    background-size: cover; 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; 
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 500px;
     width: 900px;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.flex-use{
+
+.flex-use {
     text-align: center;
     color: white;
 }
-.explore-travel-title{
+
+.explore-travel-title {
     color: #FFF;
-font-family: Mulish;
-font-size: 64px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.hero-description{
+
+.hero-description {
     color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 800;
-line-height: 26px; 
-width: 676px;
-margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    width: 676px;
+    margin: 0 auto;
 }
-.input-button-select{
+
+.input-button-select {
     display: inline-flex;
-padding: 16px;
-align-items: flex-start;
-gap: 24px;
-border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-}
-#findnow{
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
     border-radius: 8px;
-background: #FF5400;
-width: 174px;
-height: 52px;
-color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 700; 
+    background: rgba(255, 255, 255, 0.30);
 }
-i{
+
+#findnow {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+i {
     color: white;
     padding: 5px;
 }
-input, select, option{
+
+input,
+select,
+option {
     width: 174px;
-height: 52px;
-color: #1f1c1c45;
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-border-radius: 8px;
+    height: 52px;
+    color: #1f1c1c45;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
 }
 
-.image-container{
+.image-container {
     backdrop-filter: blur(15px);
 }
+
 /* Hero Section End*/
 
-.popular-tours-container{
+.popular-tours-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 35px auto;
-    height: 500px; 
+    height: 500px;
     width: 900px;
     gap: 15px;
 }
-.popular-tours-title{
+
+.popular-tours-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tours-image {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+.popular-tours-description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.btn-read-more {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.btn-read-more:hover {
+    opacity: .8;
+    cursor: pointer;
+    border: none;
+}
+
+/* Popular Tour Section end */
+
+/* Choose Your Destination start */
+.choose-destination-container {
+    eight: 500px;
+    width: 900px;
+    margin: 45px auto;
+}
+
+.destination-title {
     color: #131318;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
 }
-.popular-tours-image{
-    width: 540px;
-height: 550px;
-border-radius: 16px; 
-}
-.popular-tours-description{
-    text-align: justify;
-    text-justify: inter-word;
-}
-.btn-read-more{
-    border-radius: 8px;
-background: #FF5400;
-width: 174px;
-height: 52px;
-color: #FFF;
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
 text-align: center;
-font-size: 20px;
-font-weight: 800; 
-}
-.btn-read-more:hover{
-    opacity: .8;
-    cursor: pointer;
-    border: none;
-}
-/* Popular Tour Section end */
-
-/* Choose Your Destination start */ 
-.choose-destination-container{
-    eight: 500px; 
-    width: 900px;
-    margin: 0 auto;
-}
-.destination-title{
-    text-align: center;
-}
-.destination-description{
-    text-align: center;
-}
-.grid-image{
-height: 300px;
-
-}
-.maldives{
-    width: 573px;
-height: 300px;
-background-image: url('./Images/maldives.png');
-background-size: cover; 
-background-color: #cccccc; /* Used if the image is unavailable */
-background-position: center; 
-background-repeat: no-repeat;
-display: flex;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px; 
+width: 643px;
 align-items: center;
-justify-content: center;
-color: #FFF;
-text-align: center;
-font-size: 28px;
-font-weight: 800; 
-border-radius: 16px; 
+margin: 0 auto;
 }
-.indonesia{
+
+
+.maldives {
+    width: 573px;
+    height: 300px;
+    background-image: url('./Images/maldives.png');
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    border-radius: 16px;
+    grid-area: maldives;
+}
+
+.indonesia {
     width: 573px;
     height: 300px;
     background-image: url('./Images/indonesia.png');
-    background-size: cover; 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    background-position: center; 
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -221,16 +253,19 @@ border-radius: 16px;
     color: #FFF;
     text-align: center;
     font-size: 28px;
-    font-weight: 800; 
+    font-weight: 800;
     border-radius: 16px;
+    grid-area: indonesia;
 }
-.srilanka{
+
+.srilanka {
     width: 374px;
-height: 286px;
+    height: 286px;
     background-image: url('./Images/srilanka.png');
-    background-size: cover; 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    background-position: center; 
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -238,16 +273,20 @@ height: 286px;
     color: #FFF;
     text-align: center;
     font-size: 28px;
-    font-weight: 800; 
+    font-weight: 800;
     border-radius: 16px;
+    grid-area: srilanka;
+    
 }
-.north-america{
+
+.north-america {
     width: 474px;
     height: 286px;
     background-image: url('./Images/north-america.png');
-    background-size: cover; 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    background-position: center; 
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -255,16 +294,19 @@ height: 286px;
     color: #FFF;
     text-align: center;
     font-size: 28px;
-    font-weight: 800; 
+    font-weight: 800;
     border-radius: 16px;
+    grid-area: north-america;
 }
-.kashmir{
+
+.kashmir {
     width: 274px;
-height: 286px;
+    height: 286px;
     background-image: url('./Images/kashmir.png');
-    background-size: cover; 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    background-position: center; 
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -272,16 +314,19 @@ height: 286px;
     color: #FFF;
     text-align: center;
     font-size: 28px;
-    font-weight: 800; 
+    font-weight: 800;
     border-radius: 16px;
+    grid-area: kashmir;
 }
-.bangladesh{
+
+.bangladesh {
     width: 473px;
-height: 300px;
+    height: 300px;
     background-image: url('./Images/bangladesh.png');
-    background-size: cover; 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    background-position: center; 
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -289,16 +334,19 @@ height: 300px;
     color: #FFF;
     text-align: center;
     font-size: 28px;
-    font-weight: 800; 
+    font-weight: 800;
     border-radius: 16px;
+    grid-area: bangladesh;
 }
-.bandarban{
+
+.bandarban {
     width: 673px;
-height: 300px;
+    height: 300px;
     background-image: url('./Images/bandarban.png');
-    background-size: cover; 
-    background-color: #cccccc; /* Used if the image is unavailable */
-    background-position: center; 
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -306,12 +354,76 @@ height: 300px;
     color: #FFF;
     text-align: center;
     font-size: 28px;
-    font-weight: 800; 
+    font-weight: 800;
     border-radius: 16px;
+    grid-area: bandarban;
 }
+
 .grid-destination {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    display: grid;
-    row-gap: 30px;
+/* 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.first-grid, .second-grid, .third-grid{
+    display: flex;
+}
+.grid-image{
+    margin: 8px;
+}
+/* class="why-choose-us" */
+.why-choose-us{
+    eight: 500px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.why-choose-us-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.why-choose-us-text{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px; 
+width: 643px;
+align-items: center;
+margin: 0 auto;
+
+}
+.choose-us-flexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+    width: 573px;
+height: 284px;
+margin: 10px;
+padding: 10px;
+
+}
+.choose-us-second{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-us-first{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.choose-us-third{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.choose-flex{
+    display: flex;
 }
