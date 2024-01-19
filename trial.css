@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    color: #131318;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 10px;
+    width: 900px;
+    margin: auto;
+}
+
+.company-logo {
+    width: 48px;
+    height: 56.008px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+}
+#nav-icon{
+    display: none;
+}
+.company-name {
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+span {
+    color: #FF5400;
+}
+
+.navbar a {
+    color: #131318;
+    font-family: Mulish;
+    ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar {
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+.navbar a:hover {
+    color: #FF5400;
+}
+/* Heder End */
+/* 
+Hero */
+.hero-image-container {
+    background: url('/Images/hero.png');
+    background-size: cover;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 500px;
+    width: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.flex-use {
+    text-align: center;
+    color: white;
+}
+
+.explore-travel-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hero-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px;
+    width: 676px;
+    margin: 0 auto;
+}
+
+.input-button-select {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+#findnow {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+#findnow:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    opacity: .8;
+}
+
+
+i {
+    color: white;
+    padding: 5px;
+}
+
+input,
+select,
+option {
+    width: 174px;
+    height: 52px;
+    color: #1f1c1c45;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.image-container {
+    backdrop-filter: blur(15px);
+}
+/* 
+Tours */
+.popular-tours-container {
+    display: flex;
+    flex-direction: column; /* Change to column layout for small screens */
+    align-items: center;
+    margin: 35px auto;
+    max-width: 100%; /* Adjust to your needs */
+    gap: 15px;
+}
+
+.popular-tours-title {
+    color: #131318;
+    text-align: center;
+    font-size: 30px; /* Adjust font size for smaller screens */
+    font-weight: 800;
+}
+
+.popular-tours-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 540px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 16px;
+}
+
+.popular-tours-description {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px; /* Adjust font size for smaller screens */
+    padding: 10px;
+}
+
+.btn-read-more {
+    border-radius: 8px;
+
+    width: 100%; /* Make the button full-width */
+    max-width: 174px; /* Set a maximum width */
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px; /* Adjust font size for smaller screens */
+    font-weight: 800;
+
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    margin: auto; /* Optional: Center horizontally within the parent */
+}
+
+
+.btn-read-more:hover {
+    opacity: .8;
+    cursor: pointer;
+    border: none;
+}
+/* Destination */
+.choose-destination-container {
+    /* height: 500px; */
+    width: 90%; /* Adjusted width for responsiveness */
+    margin: 45px auto;
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-size: 30px; /* Adjusted font size for responsiveness */
+    font-weight: 800;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 90%; /* Adjusted width for responsiveness */
+    margin: 0 auto;
+}
+
+.grid-image {
+    margin: 8px;
+    width: 100%; /* Make grid images full width for responsiveness */
+    height: 176px; /* Adjusted height for responsiveness */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px; /* Adjusted font size for responsiveness */
+    font-weight: 800;
+    border-radius: 16px;
+}
+
+.grid-destination {
+    display: flex;
+    flex-direction: column; /* Adjusted to column layout for responsiveness */
+}
+
+.first-grid,
+.second-grid,
+.third-grid {
+    display: flex;
+    flex-wrap: wrap; /* Added to allow responsiveness */
+    justify-content: center;
+}
+
+
+.maldives {
+width: 573px;
+height: 300px;
+background-image: url('./Images/maldives.png');
+background-size: cover;
+background-color: #cccccc;
+/* Used if the image is unavailable */
+/* background-position: center; */
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+border-radius: 16px;
+grid-area: maldives;
+}
+
+.indonesia {
+width: 573px;
+height: 300px;
+background-image: url('./Images/indonesia.png');
+background-size: cover;
+background-color: #cccccc;
+/* Used if the image is unavailable */
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+border-radius: 16px;
+
+}
+
+.srilanka {
+width: 374px;
+height: 286px;
+background-image: url('./Images/srilanka.png');
+background-size: cover;
+background-color: #cccccc;
+/* Used if the image is unavailable */
+/* background-position: center; */
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+border-radius: 16px;
+
+
+}
+
+.north-america {
+width: 474px;
+height: 286px;
+background-image: url('./Images/north-america.png');
+background-size: cover;
+background-color: #cccccc;
+/* Used if the image is unavailable */
+/* background-position: center; */
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+border-radius: 16px;
+
+}
+
+.kashmir {
+width: 274px;
+height: 286px;
+background-image: url('./Images/kashmir.png');
+background-size: cover;
+background-color: #cccccc;
+/* Used if the image is unavailable */
+/* background-position: center; */
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+border-radius: 16px;
+
+}
+
+.bangladesh {
+width: 473px;
+height: 300px;
+background-image: url('./Images/bangladesh.png');
+background-size: cover;
+background-color: #cccccc;
+/* Used if the image is unavailable */
+/* background-position: center; */
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+border-radius: 16px;
+
+}
+
+.bandarban {
+width: 673px;
+height: 300px;
+background-image: url('./Images/bandarban.png');
+background-size: cover;
+background-color: #cccccc;
+/* Used if the image is unavailable */
+/* background-position: center; */
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-size: 28px;
+font-weight: 800;
+border-radius: 16px;
+}
+/* WHy Choose us */
+.why-choose-us {
+    height: 555px;
+    width: 900px;
+    margin: 23px auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#svg-icon{
+    width: 64px;
+height: 64px;
+}
+.why-choose-us-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.why-choose-us-text {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.choose-us-flexbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
+    width: 50%;
+    height: 167px;
+    margin: 5px;
+    padding: 10px;
+}
+.choose-us-card-text{
+    font-size: 10px;
+}
+
+.choose-us-second {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-us-first {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-us-third {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-flex {
+    display: flex;
+}
+/* Footer  */
+
+.footer-container{
+    width: 100%;
+height: 302px;
+background: rgba(19, 19, 24, 0.05);
+display: flex;
+align-items: center;
+justify-content: center; 
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-top: 25px;
+}
+.footer-text{
+    width: 60%;
+    text-align: center;
+}
+
+#footer-logo{
+    justify-content: center;
+    display: flex;
+}
+#footer-text{
+    display: flex;
+    justify-content: center;
+    color: #131318;
+}
+small{
+    font-weight: 800;
+}
+
+@media screen and (max-width:600px){
+    #nav-icon{
+        display: block;
+    }
+    #hide{
+        display: none;
+    }
+    .header{
+        width: 450px;
+    }
+
+    .kashmir, .srilanka{
+        width: 500px;
+    }
+/* hero */
+.hero-image-container {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0 auto;
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    background-color: #464646;
+    height: 600px;
+    width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;            
+}
+
+.input-button-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.explore-travel-title {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.hero-description {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    width: 330px;
+}
+input,
+select,
+option {
+width: 275px;
+height: 52px;
+color: #1f1c1c45;
+font-size: 16px;
+font-weight: 500;
+border-radius: 8px;
+}
+/* Tours */
+.popular-tours-container {
+    max-width: 100%;
+}
+
+.popular-tours-image {
+    max-width: 100%;
+}
+.popular-tours-description {
+    text-align: center;
+    padding: 10px;
+}
+
+/* destination  */
+.grid-image {
+    height: 150px; /* Adjusted height for smaller screens */
+}
+
+.choose-destination-container {
+    width: 90%; /* Adjusted width for smaller screens */
+}
+
+/* Why Choose us */
+.choose-flex{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.choose-us-flexbox{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.why-choose-us {
+height: 1109px;
+width: fit-content;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+justify-content: center;
+align-items: center;
+}
+.choose-us-card-title{
+font-size: 20px;
+}
+.choose-us-card-text{
+font-size: 12px;
+font-weight: 500;
+}
+.box{
+width: 335px;
+height: 289px;
+margin: 5px auto;
+}
+.why-choose-us-text{
+font-size: 12px;
+width: 90%;
+height: 67px;
+margin: 0 auto;
+padding: 3px;
+font-weight: 500;
+}
+.why-choose-us-title{
+font-size: 24px;
+text-align: center;
+padding: 5px;
+}
+}
+
