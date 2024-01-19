@@ -157,12 +157,15 @@ option {
 /* 
 Tours */
 .popular-tours-container {
-    display: flex;
-    flex-direction: column; /* Change to column layout for small screens */
+    /* display: flex;
+    flex-direction: column; 
     align-items: center;
     margin: 35px auto;
-    max-width: 100%; /* Adjust to your needs */
-    gap: 15px;
+    max-width: 100%;  */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 900px;
+    margin: 0 auto;
 }
 
 .popular-tours-title {
@@ -212,12 +215,15 @@ Tours */
     cursor: pointer;
     border: none;
 }
-/* Destination */
+
+
+/*--------------------------------- Destination */
 .choose-destination-container {
     /* height: 500px; */
-    width: 90%; /* Adjusted width for responsiveness */
-    margin: 45px auto;
+    width: 80; /* Adjusted width for responsiveness */
+    margin: 5px auto;
 }
+
 
 .destination-title {
     color: #131318;
@@ -574,6 +580,8 @@ border-radius: 8px;
 /* Tours */
 .popular-tours-container {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .popular-tours-image {
