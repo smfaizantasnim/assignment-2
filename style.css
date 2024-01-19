@@ -14,12 +14,14 @@
     align-items: center;
     margin: 15px 127px 15px 135px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    padding: 10px;
+    padding: 5px;
+    width: 900px;
+    margin: 0 auto;
 }
 
 .company-logo {
     width: 48px;
-    height: 56.008px;
+    height: 53px;
 }
 
 .logo-container {
@@ -44,7 +46,6 @@ span {
 .navbar a {
     color: #131318;
     font-family: Mulish;
-    ;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -64,7 +65,7 @@ span {
 }
 
 /* Navbar Section end   */
-
+/*-------------------------------Hero Section---------*/
 
 .hero-image-container {
     background: url('/Images/hero.png');
