@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
     color: #131318;
+    box-sizing: border-box;
 }
 
 .header {
@@ -26,7 +27,9 @@
     align-items: center;
     /* position: fixed; */
 }
-
+#nav-icon{
+    display: none;
+}
 .company-name {
     font-family: Mulish;
     font-size: 36px;
@@ -120,7 +123,14 @@ span {
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+    transition: .3s;
 }
+#findnow:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    opacity: .8;
+}
+
 
 i {
     color: white;
@@ -378,7 +388,7 @@ option {
 
 /* class="why-choose-us" */
 .why-choose-us {
-    height: 500px;
+    height: 530px;
     width: 900px;
     margin: 23px auto;
     text-align: center;
@@ -479,3 +489,39 @@ small{
 }
 /* Normal Essential part done
 Now Respnsive */
+
+@media screen and (max-width:600px){
+    #nav-icon{
+        display: block;
+    }
+    #hide{
+        display: none;
+    }
+    input,
+select,
+option  {
+        width: 100%;
+    }
+
+    .input-button-select {
+        display:grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .popular-tours-container{
+        overflow: auto;
+    }
+    .left-side{
+        overflow: auto;
+    }
+    .right-side{
+        margin-left: 216px
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 989px){
+  
+}
+
+@media screen and (min-width:990px){
+
+} 
